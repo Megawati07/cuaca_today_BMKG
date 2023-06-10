@@ -1,6 +1,5 @@
 message('Loading Packages')
 library(rvest)
-library(rlang)
 library(mongolite)
 
 message('Scraping Data Cuaca')
