@@ -8,11 +8,9 @@ message('Scraping Data Cuaca')
 # Mengambil data dari website
 url <- "https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg"
 html <- read_html(url)
-count <- html_text(html_nodes(html, ".maincounter-number"), trim=T)
 
 # Menampiln data dengan tabel
 data<- html %>% html_nodes("table") %>% html_table()
-data
 
 # Mendefinisikan nama variabel
 data2 <- data[[2]]
