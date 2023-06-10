@@ -35,6 +35,8 @@ data4[,variabel_ubah] <- sapply(data4[,variabel_ubah], as.numeric)
 
 # Mengurutkan data berdasarkan suhu maksimum
 datafix <- data4[order(data4$Suhu_Maksimum,decreasing = T),]
+datafix$hari_scrap<-rep(as.character(Sys.Date()),nrow(datafix))
+datafix$jam_scrap<-rep(as.character(Sys.time()),nrow(datafix))
 
 # Mongo db 
 message('Input Data ke MongoDB Atlas')
