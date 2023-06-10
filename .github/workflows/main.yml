@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  hashtag-scrape:
+  cuaca-scrape:
     runs-on: windows-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
