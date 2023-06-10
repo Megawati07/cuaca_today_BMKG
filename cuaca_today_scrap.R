@@ -1,9 +1,9 @@
-massage('Loading Packages')
+message('Loading Packages')
 library(rvest)
 library(rlang)
 library(mongolite)
 
-massage('Scraping Data Cuaca')
+message('Scraping Data Cuaca')
 
 # Mengambil data dari website
 url <- "https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg"
