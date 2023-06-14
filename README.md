@@ -5,6 +5,17 @@
 </p>
 
 <div align="center">
+ 
+  
+[Tentang](#scroll-tentang)
+•
+[Screenshot](#rice_scene-screenshot)
+•
+[Demo](#dvd-demo)
+•
+[Dokumentasi](#blue_book-dokumentasi)
+
+</div>
 
 ## :scroll: Tentang
 
