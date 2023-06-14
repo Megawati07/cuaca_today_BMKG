@@ -9,11 +9,11 @@
   
 [Tentang](#scroll-tentang)
 •
-[Dokumentasi](#blue_book-dokumentasi)
+[Dokumen](#green_book-dokumen)
 •
-[Demo](#dvd-demo)
+[Visualisasi](#bar_chart-visualisasi)
 •
-
+[Pengembang](#bar_chart-pengembang)
 
 </div>
 
@@ -23,9 +23,9 @@ Indonesia merupakan negara beriklim tropis yang mempunyai dua musim, yaitu musim
 
 Penting untuk selalu memperhatikan perkiraan cuaca terkini dari BMKG dan mengikuti informasi peringatan cuaca jika ada. Oleh karena itu project kali ini akan dilakukan scraping data cuaca di Indonesia yang bersumber dari website resmi Badan Meteorologi Klimatologi dan Geofisika (BMKG) https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg. Website ini berisi informasi mengenai perkiraan cuaca, suhu dan kelembapan udara di masing-masing provinsi di Indonesia yang diwakili oleh ibu kota provinsi itu sendiri.
 
-## green_book : Dokumen
+## :green_book: Dokumen
 
-## :bar_chart : Visualisasi
+## :bar_chart: Visualisasi
  
-## :fairy_woman : Pengembang
+## :fairy_woman: Pengembang
 Megawati (G1501221026) https://github.com/Megawati07
