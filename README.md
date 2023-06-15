@@ -23,7 +23,7 @@ Indonesia merupakan negara beriklim tropis yang mempunyai dua musim, yaitu musim
 Penting untuk selalu memperhatikan perkiraan cuaca terkini dari BMKG dan mengikuti informasi peringatan cuaca jika ada. Oleh karena itu project kali ini akan dilakukan scraping data cuaca di Indonesia yang bersumber dari website resmi Badan Meteorologi Klimatologi dan Geofisika (BMKG) https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg. Website ini berisi informasi mengenai perkiraan cuaca, suhu dan kelembapan udara di masing-masing provinsi di Indonesia yang diwakili oleh ibu kota provinsi itu sendiri.
 
 ## :green_book: Dokumen
-Hasil scraping yang terlihat pada Mongo DB
+Contoh  **input** scraping yang terlihat pada Mongo DB
 1. Provinsi dengan suhu tertinggi
   ```
   {"_id":{"$oid":"6489cbb1576a68de080021b1"},
@@ -48,6 +48,7 @@ Hasil scraping yang terlihat pada Mongo DB
   "hari_scrap":"2023-06-14",
   "jam_scrap":"2023-06-14 14:16:15.437179"}
   ```
+Contoh **output** scraping yang terlihat pada Mongo DB
 |    ID    | Kota      | Perkiraan Cuaca Siang | Suhu Man (°C) | Suhu Max (°C) | Kelembapan Min | Kelembapan Max |Tanggal     |Waktu (jam)  |
 |:---------|:----------|:----------------------|:--------------|:--------------|:---------------|:---------------|:-----------|:------------|
 | ...021b1 | Manokwari | Berawan               |       24      |       32      |      70        |       95       |14 Juni 2023| 14:16:15    |
