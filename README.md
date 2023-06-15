@@ -26,7 +26,8 @@ Penting untuk selalu memperhatikan perkiraan cuaca terkini dari BMKG dan mengiku
 Hasil scraping yang terlihat pada Mongo DB
 1. Provinsi dengan suhu tertinggi
   ```
-  {"_id":{"$oid":"6489cbb1576a68de080021b1"},"Kota":"Manokwari",
+  {"_id":{"$oid":"6489cbb1576a68de080021b1"},
+  "Kota":"Manokwari",
   "Perkiraan Cuaca Siang":"Berawan"
   "Suhu_Minimum":{"$numberDouble":"24.0"},
   Suhu_Maksimum":{"$numberDouble":"32.0"},
@@ -38,7 +39,8 @@ Hasil scraping yang terlihat pada Mongo DB
 2. Provinsi dengan suhu terendah
   ```
   {"_id":{"$oid":"6489cbb1576a68de080021bf"},
-  "Kota":"Samarinda","Perkiraan Cuaca Siang":"Berawan",
+  "Kota":"Samarinda",
+  "Perkiraan Cuaca Siang":"Berawan",
   "Suhu_Minimum":{"$numberDouble":"23.0"},
   "Suhu_Maksimum":{"$numberDouble":"28.0"},
   "Kelembapan_Minimum":{"$numberDouble":"85.0"},
@@ -46,6 +48,13 @@ Hasil scraping yang terlihat pada Mongo DB
   "hari_scrap":"2023-06-14",
   "jam_scrap":"2023-06-14 14:16:15.437179"}
   ```
+|    ID    | Kota      | Perkiraan Cuaca Siang | Suhu Man (°C) | Suhu Max (°C) | Kelembapan Min | Kelembapan Max |Tanggal     |Waktu (jam)  |
+|:---------|:----------|:----------------------|:--------------|:--------------|:---------------|:---------------|:-----------|:------------|
+| ...021b1 | Manokwari | Berawan               |       24      |       32      |      70        |       95       |14 Juni 2023| 14:16:15    |
+| ...021bf | Samarinda | Berawan               |       23      |       28      |      85.5      |       100      |14 Juni 2023| 14:16:15    |
+
+
+ 
 ## :bar_chart: Visualisasi
  
 ## :fairy_woman: Pengembang
