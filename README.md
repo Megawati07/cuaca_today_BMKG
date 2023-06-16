@@ -70,7 +70,7 @@ Gambar dibawa ini merupakan contoh visualisasi cuaca di Indonesia berdasarkan su
 <p align="center">
  <img width="800" height="400" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
 </p>
-Visualisasi selainnya dapat dilihat pada **Mongo DB** di link berikut :
+Visualisasi selainnya dapat dilihat pada **MongoDB** di link berikut :
 https://ipb.link/visualisasi-scraping
  
 ## :fairy_woman: Pengembang
