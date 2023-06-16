@@ -20,10 +20,17 @@
 ## :scroll: Tentang
 Indonesia merupakan negara beriklim tropis yang mempunyai dua musim, yaitu musim hujan dan musim kemarau. Perlu diingat bahwa cuaca di Indonesia dapat sangat bervariasi antar wilayah. Beberapa wilayah di Indonesia seperti Sumatera, Kalimantan, Sulawesi, dan Papua, memiliki hutan hujan tropis dan curah hujan yang tinggi sepanjang tahun. Sementara itu, wilayah-wilayah seperti Bali, Nusa Tenggara, dan sebagian Jawa, umumnya memiliki iklim kering dengan curah hujan yang lebih rendah.
 
-Penting untuk selalu memperhatikan perkiraan cuaca terkini dari BMKG dan mengikuti informasi peringatan cuaca jika ada. Oleh karena itu project kali ini akan dilakukan scraping data cuaca di Indonesia yang bersumber dari website resmi Badan Meteorologi Klimatologi dan Geofisika (BMKG) https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg. Website ini berisi informasi mengenai perkiraan cuaca, suhu dan kelembapan udara di masing-masing provinsi di Indonesia yang diwakili oleh ibu kota provinsi itu sendiri.
+Penting untuk selalu memperhatikan perkiraan cuaca terkini dari BMKG dan mengikuti informasi peringatan cuaca jika ada. Oleh karena itu project kali ini akan dilakukan scraping data cuaca di Indonesia yang bersumber dari website resmi **Badan Meteorologi Klimatologi dan Geofisika** (BMKG) https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg. Website ini berisi informasi mengenai perkiraan cuaca, suhu dan kelembapan udara di masing-masing provinsi di Indonesia yang diwakili oleh ibu kota provinsi itu sendiri.
+
+
+## :pencil: Data
+Berikut merupakan tabel dari _website_ https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg yang akan di scraping menggunakan _**software R**_
+<p align="center">
+ <img width="700" height="400" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/data.jpg">
+</p>
 
 ## :green_book: Dokumen
-Contoh  **input** scraping yang terlihat pada Mongo DB
+Contoh  _**input** scraping_ yang terlihat pada Mongo DB
 1. Provinsi dengan suhu tertinggi
   ```
 {"_id":{"$oid":"6489cbb1576a68de080021a3"},
@@ -48,7 +55,7 @@ Contoh  **input** scraping yang terlihat pada Mongo DB
   "hari_scrap":"2023-06-14",
   "jam_scrap":"2023-06-14 14:16:15.437179"}
   ```
-Contoh **output** scraping yang terlihat pada Mongo DB
+Contoh _**output** scraping_ yang terlihat pada Mongo DB
 |    ID    | Kota      | Perkiraan Cuaca Siang | Suhu Min (°C) | Suhu Max (°C) | Kelembapan Min | Kelembapan Max |Tanggal     |Waktu (jam)  |
 |:---------|:----------|:----------------------|:--------------|:--------------|:---------------|:---------------|:-----------|:------------|
 | ...021b1 | Surabaya  | Cerah Berawan         |       26      |       34      |      50        |       85       |14 Juni 2023| 14:16:15    |
@@ -61,7 +68,7 @@ Gambar dibawa ini merupakan contoh visualisasi cuaca di Indonesia berdasarkan su
 <p align="center">
  <img width="800" height="300" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
 </p>
-Visualisasi selainnya dapat dilihat pada Mongo DB di link berikut :
+Visualisasi selainnya dapat dilihat pada **Mongo DB** di link berikut :
 https://ipb.link/visualisasi-scraping
  
 ## :fairy_woman: Pengembang
