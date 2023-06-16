@@ -8,6 +8,8 @@
  
   
 [Tentang](#scroll-tentang)
+ •
+[Data](#pencil)
 •
 [Dokumen](#green_book-dokumen)
 •
@@ -24,7 +26,7 @@ Penting untuk selalu memperhatikan perkiraan cuaca terkini dari BMKG dan mengiku
 
 
 ## :pencil: Data
-Berikut merupakan tabel dari _website_ https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg yang akan di scraping menggunakan _**software R**_
+Berikut merupakan tabel dari _website_ https://www.bmkg.go.id/cuaca/prakiraan-cuaca-indonesia.bmkg yang akan di scraping menggunakan _**software R**_.
 <p align="center">
  <img width="700" height="400" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/data.png">
 </p>
