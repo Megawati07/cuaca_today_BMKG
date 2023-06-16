@@ -62,8 +62,6 @@ Gambar dibawa ini merupakan visualisasi cuaca di Indonesia berdasarkan suhu tert
  <img width="800" height="300" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
 </p>
 
-<div align="center">
-
  
 ## :fairy_woman: Pengembang
 Megawati (G1501221026) https://github.com/Megawati07
