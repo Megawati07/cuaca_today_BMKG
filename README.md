@@ -68,7 +68,7 @@ Tabel diatas menunjukkan Provinsi Jawa Timur yang diwakili oleh Kota Surabaya me
 ## :bar_chart: Visualisasi
 Gambar dibawa ini merupakan contoh visualisasi cuaca di Indonesia berdasarkan suhu tertinggi pada masing-masing Kota/Kabupaten pada tanggal 14 Juni 2023.
 <p align="center">
- <img width="800" height="300" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
+ <img width="800" height="400" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
 </p>
 Visualisasi selainnya dapat dilihat pada **Mongo DB** di link berikut :
 https://ipb.link/visualisasi-scraping
