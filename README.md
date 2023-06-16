@@ -57,7 +57,7 @@ Contoh **output** scraping yang terlihat pada Mongo DB
 Tabel diatas menunjukkan Provinsi Jawa Timur yang diwakili oleh Kota Surabaya memiliki suhu tertinggi yaitu 34(°C) sedangkan Provinsi Kalimantan Timur yang diwakili oleh Kota Samarinda menjadi daerah dengan suhu paling rendah yaitu 28(°C). Cuaca kedua provinsi tersebut diperkirakan berawan pada hari Rabu, 14 Juni 2023 pukul 14.16 WITA.
  
 ## :bar_chart: Visualisasi
-Gambar dibawa ini merupakan visualisasi cuaca di Indonesia berdasarkan suhu tertinggi pada masing-masing Kota/Kabupaten pada tanggal 14 Juni 2023.
+Gambar dibawa ini merupakan contoh visualisasi cuaca di Indonesia berdasarkan suhu tertinggi pada masing-masing Kota/Kabupaten pada tanggal 14 Juni 2023.
 <p align="center">
  <img width="800" height="300" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
 </p>
