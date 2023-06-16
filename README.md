@@ -58,7 +58,7 @@ Tabel diatas menunjukkan Provinsi Jawa Timur yang diwakili oleh Kota Surabaya me
  
 ## :bar_chart: Visualisasi
 
-<img width="800" height="200" src="C:/Users/Mega/OneDrive/DATA D/SEMESTER 2/Management Data Statistika/Project Praktikum UAS MDS/Suhu Max.jpg">
+ <img width="900" height="400" src="https://github.com/Megawati07/cuaca_today_BMKG/blob/main/Suhu Max.jpg">
  
 ## :fairy_woman: Pengembang
 Megawati (G1501221026) https://github.com/Megawati07
