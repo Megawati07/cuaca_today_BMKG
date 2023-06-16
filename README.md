@@ -49,10 +49,10 @@ Contoh  **input** scraping yang terlihat pada Mongo DB
   "jam_scrap":"2023-06-14 14:16:15.437179"}
   ```
 Contoh **output** scraping yang terlihat pada Mongo DB
-|    ID    | Kota      | Perkiraan Cuaca Siang | Suhu Man (°C) | Suhu Max (°C) | Kelembapan Min | Kelembapan Max |Tanggal     |Waktu (jam)  |
+|    ID    | Kota      | Perkiraan Cuaca Siang | Suhu Min (°C) | Suhu Max (°C) | Kelembapan Min | Kelembapan Max |Tanggal     |Waktu (jam)  |
 |:---------|:----------|:----------------------|:--------------|:--------------|:---------------|:---------------|:-----------|:------------|
 | ...021b1 | Manokwari | Berawan               |       24      |       32      |      70        |       95       |14 Juni 2023| 14:16:15    |
-| ...021bf | Samarinda | Berawan               |       23      |       28      |      85.5      |       100      |14 Juni 2023| 14:16:15    |
+| ...021bf | Samarinda | Berawan               |       23      |       28      |      85        |       100      |14 Juni 2023| 14:16:15    |
 
 Tabel diatas menunjukkan Provinsi Papua Barat yang diwakili oleh Kabupaten Manokwari memiliki suhu tertinggi yaitu 32(°C) sedangkan Provinsi Kalimantan Timur yang diwakili oleh Kota Samarinda menjadi daerah dengan suhu paling rendah yaitu 28(°C). Cuaca kedua provinsi tersebut diperkirakan berawan pada hari Rabu, 14 Juni 2023 pukul 14.16 WITA.
  
